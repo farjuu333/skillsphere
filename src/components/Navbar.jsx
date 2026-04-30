@@ -10,7 +10,7 @@ export default function Navbar() {
         SkillSphere
       </Link>
     </div>
-    <nav className="hidden md:flex items-center justify-center gap-8 flex-1">
+    <nav className=" md:flex items-center justify-center gap-8 flex-1">
       <Link href="/" className="text-gray-700 hover:text-[#006591] font-medium transition-colors">
         Home
       </Link>
