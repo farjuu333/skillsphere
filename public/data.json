@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "45 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development using React, Node, and MongoDB.",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "Advanced UI/UX Design Masterclass",
+    "instructor": "Sarah Jenkins",
+    "duration": "30 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Master Figma, Prototyping, and User Research techniques.",
+    "image": "https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=800&q=80",
+    
+    "category": "Design"
+  },
+  {
+    "id": 3,
+    "title": "Data Science with Python",
+    "instructor": "Dr. Alan Smith",
+    "duration": "55 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Analyze data, create visualizations, and learn Machine Learning.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+    "category": "Development"
+  },
+  {
+    "id": 4,
+    "title": "Digital Marketing Strategy 2026",
+    "instructor": "Maya Sterling",
+    "duration": "15 hours",
+    "rating": 4.6,
+    "level": "All Levels",
+    "description": "Master SEO, SEM, and Social Media Marketing for brands.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+    "category": "Marketing"
+  },
+  {
+    "id": 5,
+    "title": "Mobile App Development (iOS & Android)",
+    "instructor": "Alex Rivera",
+    "duration": "40 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Build cross-platform mobile apps using Flutter and Firebase.",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80",
+    "category": "Development"
+  },
+  {
+    "id": 6,
+    "title": "Graphic Design Theory & Practice",
+    "instructor": "Emma Watson",
+    "duration": "22 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Understand color theory, typography, and layout design.",
+    "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=800&q=80",
+    "category": "Design"
+  },
+  {
+    "id": 7,
+    "title": "Business Leadership & Management",
+    "instructor": "Robert Kiyosaki",
+    "duration": "12 hours",
+    "rating": 4.9,
+    "level": "Expert",
+    "description": "Lead teams effectively and scale your business operations.",
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80",
+    "category": "Business"
+  },
+  {
+    "id": 8,
+    "title": "Cyber Security Fundamentals",
+    "instructor": "Kevin Mitnick",
+    "duration": "35 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Protect systems from hackers and learn network security.",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80",
+    "category": "Development"
+  },
+  {
+    "id": 9,
+    "title": "Content Creation & Personal Branding",
+    "instructor": "Gary Vaynerchuk",
+    "duration": "18 hours",
+    "rating": 4.8,
+    "level": "All Levels",
+    "description": "Build your personal brand through video and storytelling.",
+    "image": "https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?auto=format&fit=crop&w=800&q=80",
+    "category": "Marketing"
+  }
+]
