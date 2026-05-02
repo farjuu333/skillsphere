@@ -44,8 +44,10 @@ export default function SignInPage() {
   const handleGoogleSignIn = async () => {
     await authClient.signIn.social({
       provider: "google",
-      callbackURL: "/", 
+    //   callbackURL: "/", 
+      
     });
+    console.log(handleGoogleSignIn,"handleGoogleSignIn")
   };
 
   return (
@@ -77,8 +79,8 @@ export default function SignInPage() {
             <div className="h-[1px] bg-gray-200 flex-grow"></div>
           </div>
 
-          <Button onClick={handleGoogleSignIn} variant="bordered" className="w-full">
-            <FaGoogle /> Sign In With Google
+          <Button onClick={handleGoogleSignIn} variant="secondary" className="w-full">
+            <FaGoogle /> Login In With Google
           </Button>
         </div>
       </Form>
@@ -93,3 +95,4 @@ export default function SignInPage() {
     </Card>
   );
 }
+
