@@ -28,7 +28,7 @@ const PhotoCard = ({photo}) => {
             </div>
             
             </div>
-            <Link href={`/all-photos/${photo.id}`}>
+            <Link href={`/courses/${photo.id}`}>
             <Button variant='outline' className={'w-full text-blue-600 text-xs font-bold'}>View Details</Button>
             </Link>
             
