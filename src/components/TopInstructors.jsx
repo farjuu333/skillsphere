@@ -34,7 +34,7 @@ const TopInstructors = () => {
         {/* Header Part */}
         <div className="text-center mb-8">
           <h2 className="text-4xl font-extrabold text-[#1A365D] mb-3">
-            Learn from the Best
+            Top Instructors 
           </h2>
           <p className="text-gray-500 max-w-xl mx-auto">
             Our instructors are practitioners from top-tier companies like Google, Airbnb, and Tesla.

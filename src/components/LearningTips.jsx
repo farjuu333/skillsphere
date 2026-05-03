@@ -51,7 +51,7 @@ const LearningTips = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-10">
           <h2 className="text-4xl font-extrabold text-[#1A365D]">
-            Accelerate Your Learning
+            Learning Tips 
           </h2>
         </div>
 
