@@ -8,7 +8,7 @@ import { FiClock, FiBarChart } from "react-icons/fi";
 const CourseDetailsPage = async ({ params }) => {
     const { id } = await params;
 
-    const res = await fetch("https://skillsphere-beta.vercel.app/data.json");
+    const res = await fetch("https://skillsphere-beta.vercel.app/data.json",{cache:'no-store'});
     const photos = await res.json();
     const photo = photos.find(p => p.id == id);
 
@@ -97,6 +97,47 @@ const CourseDetailsPage = async ({ params }) => {
                     </div>
                 </div>
             </Card>
+
+            <div className="mt-12 px-4">
+    <div className="flex items-center justify-between mb-8">
+        <h3 className="text-3xl font-extrabold text-[#0b1c30] flex items-center gap-3">
+            <span className="w-1.5 h-8 bg-[#006591] rounded-full"></span>
+            Course Curriculum
+        </h3>
+        <p className="text-slate-400 font-medium">5 Lessons • 12h 30m</p>
+    </div>
+
+    <div className="grid gap-3">
+        {[
+            { id: "01", title: "Introduction to Design Thinking", status: "Preview", locked: false },
+            { id: "02", title: "Mastering Layouts & Grid Systems", status: "Locked", locked: true },
+            { id: "03", title: "Advanced Prototyping with Figma", status: "Locked", locked: true },
+            { id: "04", title: "User Research & Psychology", status: "Locked", locked: true },
+            { id: "05", title: "Capstone Project: Final Delivery", status: "Locked", locked: true },
+        ].map((item) => (
+            <div 
+                key={item.id} 
+                className="group flex items-center justify-between p-6 rounded-[24px] bg-white border border-slate-100 hover:border-[#006591]/20 hover:shadow-lg hover:shadow-slate-100 transition-all cursor-pointer"
+            >
+                <div className="flex items-center gap-6">
+                    <div className={`w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm transition-colors ${item.locked ? 'bg-slate-50 text-slate-300' : 'bg-blue-50 text-[#006591]'}`}>
+                        {item.id}
+                    </div>
+                    <p className="font-bold text-lg text-[#3e4850] group-hover:text-[#0b1c30] transition-colors">
+                        {item.title}
+                    </p>
+                </div>
+                <Chip 
+                    size="sm"
+                    variant="flat"
+                    className={`font-bold px-4 ${item.locked ? "bg-slate-100 text-slate-400" : "bg-[#006591]/10 text-[#006591]"}`}
+                >
+                    {item.status}
+                </Chip>
+            </div>
+        ))}
+    </div>
+</div>
         </div>
     );
 };
